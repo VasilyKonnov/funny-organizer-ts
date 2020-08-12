@@ -1,7 +1,6 @@
 import { LOAD_TODOS, LOAD_USER, DELETE_TODO, SET_LOADING, UPDATE_TODO, ADD_TODO } from '../types';
 import { IProfileState } from '../../interfaces/profileState.interface';
 import { Todo } from '../../interfaces/todo.interface';
-// import { User } from '../../interfaces/user.interface';
 
 const handlers: any = {
     [LOAD_USER]: (state: IProfileState, { payload }: any): IProfileState => {
