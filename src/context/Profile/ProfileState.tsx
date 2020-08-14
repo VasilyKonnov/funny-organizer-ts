@@ -106,7 +106,6 @@ export const ProfileState = ({ children }: any) => {
 
     const addTodo = async (body: Partial<Todo>) => {
         const id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-        console.log(body)
         try {
             let response = await fetch(`${url}/todos`, {
                 method: 'POST',

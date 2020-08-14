@@ -9,7 +9,7 @@ const Tasks = () => {
                 <hr className="my-4" />
                 <p>Использются служебные классы для типографики и расстояния содержимого в контейнере большего размера.</p>
                 <p className="lead">
-                    <button className="btn btn-primary btn-lg" role="button">Test button</button>
+                    <a className="btn btn-primary btn-lg" href="/" role="button">Вернуться на главную</a>
                 </p>
             </div>
         </React.Fragment>

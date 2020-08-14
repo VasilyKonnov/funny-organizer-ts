@@ -19,7 +19,6 @@ const AddTask = (props: IAddTodo) => {
         setTaskTitle(event.target.value);
     }
     const handleClick = () => {
-        console.log(props)
         props.addTodo({ userId: props.userId, title: taskTitle, completed: false });
         setTaskTitle("");
     }
